@@ -4,6 +4,7 @@ resource "libvirt_network" "network" {
   /* domain    = "${var.host_name}.${var.cluster_name}.${var.root_domain}" */
   domain    = var.root_domain
   addresses = var.addresses
+  autostart = var.autostart
   dhcp {
     enabled = true
   }

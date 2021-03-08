@@ -21,3 +21,9 @@ variable "mode" {
   type        = string
   default     = "nat"
 }
+
+variable "autostart" {
+  description = "Network autostart on Libvirt host boot"
+  type        = boolean
+  default     = false
+}

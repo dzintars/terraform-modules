@@ -7,4 +7,3 @@ output "id" {
   description = "ID of the Libvirt Network"
   value       = libvirt_network.network.id
 }
-

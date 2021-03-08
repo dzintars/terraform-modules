@@ -13,6 +13,11 @@ variable "cidr_range" {
 variable "root_domain" {
   description = "Domain Name e.g. 'example.com'"
   type        = string
-  default     = "oswee.com"
+  default     = "example.com"
 }
 
+variable "mode" {
+  description = "Network mode"
+  type        = string
+  default     = "nat"
+}

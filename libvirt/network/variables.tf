@@ -6,8 +6,8 @@ variable "name" {
 
 variable "cidr_range" {
   description = ""
-  type        = string
-  default     = "192.168.122.0/24"
+  type        = list(string)
+  default     = ["192.168.122.0/24"]
 }
 
 variable "root_domain" {

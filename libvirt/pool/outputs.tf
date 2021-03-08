@@ -3,3 +3,7 @@ output "name" {
   value       = libvirt_pool.pool.name
 }
 
+output "path" {
+  description = "Libvirt Pool path"
+  value       = libvirt_pool.pool.path
+}

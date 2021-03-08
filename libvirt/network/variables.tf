@@ -4,8 +4,8 @@ variable "name" {
   default     = "default-network"
 }
 
-variable "cidr_range" {
-  description = ""
+variable "addresses" {
+  description = "List of addresses in cidr notation"
   type        = list(string)
   default     = ["192.168.122.0/24"]
 }

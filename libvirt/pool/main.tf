@@ -3,5 +3,3 @@ resource "libvirt_pool" "pool" {
   type = "dir"
   path = "${var.path}/${var.name}"
 }
-
-
